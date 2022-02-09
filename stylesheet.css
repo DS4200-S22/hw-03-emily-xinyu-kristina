@@ -1,0 +1,52 @@
+* {
+	font-family: Arial;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.container {
+	display: flex;
+	
+	justify-content: space-evenly;
+	flex-flow:  row wrap;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	align-content: flex-start;
+	padding: 15px;
+}
+
+.item {
+	width: 45%;
+	height: 45%;
+	margin: auto;
+	align-items: flex-start;
+	border: 5px solid black;
+	padding:  5px;
+
+}
+
+.p1{
+	padding: 5px;
+}
+
+.parent {
+	text-align: center;
+	}
+.ul1 { 
+	display: inline-block; 
+	text-align: left; 
+	}
+
+.shapes {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.my-rectangle:hover { fill: #5F9EA0;}
+
+.my-circle:hover { fill: #5F9EA0;}
+
+
